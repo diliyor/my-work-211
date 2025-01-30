@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'inter', sans-serif;
+}
+.header-leader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 420px;
+}
+.header p {
+    margin: 0px 10px;
+}
+.header p a {
+    color: white;
+    text-decoration: none;
+}
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header2 p {
+    margin: 0px 10px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    position: sticky;
+    top: 0px;
+}
+.navbar h1 {
+    margin-right: 30px;
+}
+.navbar button {
+    background-color: gold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.navbar .box {
+    border: 3px solid gold;
+    margin: 20px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navbar .box input {
+    border: none;
+    width: 400px;
+    background-color: rgb(245, 245, 245);
+}
+.navbar .block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .block1 i {
+    margin-left: 12px;
+}
+.navbar .block1 .box1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .block1 .box2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+.navbar .block1 .box3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    font-size: 11px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.div {
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 20px;
+}
+.div1 p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.middle img {
+    width: 1050px;
+    border-radius: 20px;
+}
+
+
+.middle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.middle2 .box1 {
+    background-image: url('https://mini-io-api.texnomart.uz/catalog/special-category/4/aa4237cb-9bc4-4941-8535-277ca7831f48.png');
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.middle2 .box2 {
+    background-image: url('https://mini-io-api.texnomart.uz/catalog/special-category/8/61521f46-27bb-4ba1-8fa7-34f3bc6e9530.png');
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.middle2 .box3 {
+    background-image: url('https://mini-io-api.texnomart.uz/catalog/special-category/5/ade607e8-e08e-40a1-85c1-b291327fe412.png');
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.middle2 .box4 {
+    background-image: url('https://mini-io-api.texnomart.uz/catalog/special-category/7/74a09808-7198-496a-b704-158399923abd.png');
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.middle2 .box5 {
+    background-image: url('https://mini-io-api.texnomart.uz/catalog/special-category/22/1f3896fc-fbb9-4d2f-ac2e-17df4bf4959b.png');
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.middle2 .box6 {
+    background-image: url('https://mini-io-api.texnomart.uz/catalog/special-category/9/e84d9227-6eef-4f6c-94f4-a26258c5d5a1.png');
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.middle3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.middle3 .box1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.middle3 .box1 {
+    width: 260px;
+    height: 420px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    margin: 10px;
+}
+.middle3 .box1 h3 {
+    margin-left: 10px;
+}
+.middle3 .box1 button {
+    margin-left: 10px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.middle3 .box1 h2 {
+    padding-left: 10px;
+}
+.middle3 .box1 h2 button {
+    padding-left: 10px;
+    border: 2px solid gold;
+    background-color: rgb(245, 245, 245);
+}
+.middle3 .box2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.middle3 .box2 {
+    width: 260px;
+    height: 420px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+.middle3 .box2 h3 {
+    margin-left: 10px;
+}
+.middle3 .box2 button {
+    margin-left: 10px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+.middle3 .box2 h2 {
+    padding-left: 10px;
+}
+.middle3 .box2 h2 button {
+    padding-left: 10px;
+    border: 2px solid gold;
+    background-color: rgb(245, 245, 245);
+}
+
+.middle3 .box2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.middle3 .box2 {
+    width: 260px;
+    height: 420px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    margin: 10px;
+}
+.middle3 .box2 h3 {
+    margin-left: 10px;
+}
+.middle3 .box2 button {
+    margin-left: 10px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.middle3 .box2 h2 {
+    padding-left: 10px;
+}
+.middle3 .box2 h2 button {
+    padding-left: 10px;
+    border: 2px solid gold;
+    background-color: rgb(245, 245, 245);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.center img {
+    width: 150px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+
+
+.center2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center2 .box2 {
+    width: 260px;
+    height: 420px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+.center2 .box2 h3 {
+    margin-left: 10px;
+}
+.center2 .box2 button {
+    margin-left: 10px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+.center2 .box2 h2 {
+    padding-left: 10px;
+}
+.center2 .box2 h2 button {
+    padding-left: 10px;
+    border: 2px solid gold;
+    background-color: rgb(245, 245, 245);
+}
+
+.center2 .box2 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.center2 .box2 {
+    width: 260px;
+    height: 420px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    margin: 10px;
+}
+.center2 .box2 h3 {
+    margin-left: 10px;
+}
+.center2 .box2 button {
+    margin-left: 10px;
+    background-color: lightgray;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.center2 .box2 h2 {
+    padding-left: 10px;
+}
+.center2 .box2 h2 button {
+    padding-left: 10px;
+    border: 2px solid gold;
+    background-color: rgb(245, 245, 245);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.miyona h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -800px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 20px;
+}
+.bottom img {
+    margin-top: 20px;
+
+    margin-right: 50px;
+}
+.bottom .box1 img {
+    width: 100px;
+}
+.bottom .box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    margin: 20px 0px;
+}
+.bottom .box2 img {
+    margin-right: 30px;
+}
+
+
+.past .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.bottom2 .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 15px;
+}
+
+
+.bottom3 {
+    display: flex;
+
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin-top: 50px 0px;
+    padding: 30px 0px;
+}
+.bottom3 .box1 i {
+    font-size: 50px;
+    margin-right: 20px;
+}
+.bottom3 .box2 {
+    margin: 0px 30px;
+}
+.bottom4 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 13px;
+}
+.bottom4 img {
+    width: 50px;
+}
+.bottom4 p {
+    margin-right:60px;
+}
